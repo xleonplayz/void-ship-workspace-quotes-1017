@@ -1,5 +1,5 @@
-export const RELEASE = 1;
-export const DISCOUNT_BP = 500;
+export const RELEASE = 2;
+export const DISCOUNT_BP = 1000;
 export const catalog = Object.freeze([
  {sku:'board',name:'Birkenplatte',unitCents:1250},
  {sku:'screws',name:'Schraubenset',unitCents:450},
