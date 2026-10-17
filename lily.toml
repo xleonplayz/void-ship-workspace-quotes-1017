@@ -1,0 +1,10 @@
+[apps."apps/desk"]
+ports = [{port=3270,proto="http"}]
+
+[apps."services/quote"]
+ports = [{port=8271,proto="http"}]
+
+[[edges]]
+from = "apps/desk"
+to = "services/quote"
+port = 8271

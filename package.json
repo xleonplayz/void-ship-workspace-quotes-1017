@@ -1,0 +1,14 @@
+{
+  "name": "void-ship-workspace-quotes-1017",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "desk": "npm start --workspace @harbor/quote-desk",
+    "quote": "npm start --workspace @harbor/quote-service"
+  }
+}
